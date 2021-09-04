@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+body{
+    background: url(../images/serviceBanner.jpg) no-repeat;
+    color: white;
+}
+
+@media only screen and (max-width: 1150px) {
+    .w-icon-nav-menu{
+        color: white;
+    }
+}
+
+@media only screen and (max-width:760px){
+    body{
+        background: url(../images/serviceBannera.jpg) no-repeat;
+    }
+}
+
+@media (max-width: 480px) {
+    div.paragraph-medium,div.margin-bottom.short-description{
+        display: none;
+    }
+    .align-bottom{
+        margin-bottom: 0;
+    }
+    .footer{
+        margin-top: 0;
+    }
+    .footer h1{
+        padding: 0;
+
+    }
+}
+
+.nav-link.w--current {
+    color: #fff;
+}
+
+.w-nav-link {
+    color: #fff;
+}
+
+.blog-item-top{
+    margin-top: 226px;
+    padding-bottom: 0;
+}
+
+.blog-item {
+    padding-bottom: 0px;
+}
+
+.paging-number.current {
+    background-color: #ff6f00;
+}
+
+.footer{
+    background-color: #e8be9f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+.footer h1{
+    color: #fff;
+    padding: 1rem;
+    font-family: 'Allison', cursive;
+    font-size: 5em;
+}
+
+.footer p{
+    color: #fff;
+    margin-top: 1.5rem;
+}

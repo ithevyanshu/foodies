@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+body{
+    background: url(../images/ResBanner.jpg) no-repeat;
+    color: black;
+}
+
+@media only screen and (max-width: 1150px) {
+    .w-icon-nav-menu{
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer{
+        margin-top: 0;
+    }
+    .footer h1{
+        padding: 0;
+
+    }
+}
+
+.section-header {
+    padding-top: 200px;
+    padding-bottom: 0;
+    background-color: #f7f7f700;
+}
+
+.footer{
+    background-color: #e8be9f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer h1{
+    color: #fff;
+    padding: 1rem;
+    font-family: 'Allison', cursive;
+    font-size: 5em;
+}
+
+.footer p{
+    color: #fff;
+    margin-top: 1.5rem;
+}

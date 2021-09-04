@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+body{
+    background: url(../images/Banner1.jpg) no-repeat;
+    color: black;
+}
+
+@media only screen and (max-width: 1150px) {
+    body{
+        background: url(../images/Banner2.jpg) no-repeat;
+    }
+    .w-icon-nav-menu{
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    div.paragraph-medium,div.margin-bottom.short-description{
+        display: none;
+    }
+    .align-bottom{
+        margin-bottom: 0;
+    }
+    .footer{
+        margin-top: 0;
+    }
+    .footer h1{
+        padding: 0;
+
+    }
+}
+
+.col {
+    margin-bottom: 78px;
+}
+
+.section-order{
+    margin-top: 200px
+}
+
+.image-reset{
+    width: 150px;
+}
+
+.orange-button{
+    background-color: #ff6f00;
+}
+
+.menu-button.w--open{
+    background-color: #ff6f00;
+}
+
+.w-nav-link{
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+.partner-grid{
+    grid-template-rows: 1fr;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    background-color: #e8be9f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.footer h1{
+    padding: 1rem;
+    font-family: 'Allison', cursive;
+    font-size: 5em;
+}
+
+.footer p{
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.section{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cycling{
+    bottom: -150px;
+    right: 10px;
+}
+
+div.section.bg-accent{
+    padding-top: 80px;
+}
